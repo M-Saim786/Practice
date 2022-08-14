@@ -1,0 +1,432 @@
+ <!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive navbar</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+            list-style: none;
+            box-sizing: border-box;
+        }
+
+        nav {
+            /* background-color: royalblue; */
+            height: 80px;
+            width: 100%;
+            background: rgb(29, 216, 44);
+        }
+
+        .logo{
+            color: white;
+            font-weight: bold;
+            font-size: 35px;
+            line-height: 80px;
+            padding: 0px 80px;
+        }
+        nav ul
+        {
+            float: right;
+            margin-right: 20px;
+
+        }
+        nav ul li{
+display: inline-block;
+line-height: 80px;
+margin: 0px 8px;
+
+        }
+        nav ul li a{
+            color: white;
+            font-size: 24px;
+            border-radius: 4px;
+padding: 0px 22px;
+        }
+a.active,a:hover{
+    background-color: rgb(65, 65, 230);
+transition: .5s;
+}
+.btn
+{
+    font-size: 30px;
+    color: white;
+    float: right;
+line-height: 80px;
+margin-right: 40px;
+cursor: pointer;
+}
+#check{
+    display: none;
+}
+.logo{
+background-image: none;}
+    </style>
+</head>
+
+<body>
+    <nav>
+        <label for="logo" class="logo"> <img src="./logo.png" alt="logo" style="height: 87px; width: 140px;
+            margin-left: -39px;"></label>
+        <ul>
+            <li> <a href="#" class="active">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li> <a href="#">About</a></li>
+            <li> <a href="#">Contact</a></li>
+            <li> <a href="#">More</a></li>
+        </ul>
+    </nav>
+    
+<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>  -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Form</title>
+    <style>
+        body {
+            background-color: rgb(240, 238, 238);
+        }
+
+        .name {
+            width: 527px;
+            height: 110px;
+            /* border: 2px solid red; */
+            margin-left: 370px;
+            margin-top: 25px;
+            background-color: white;
+            border-radius: 10px;
+            padding: 23px;
+            font-size: 20px;
+        }
+
+        #name {
+            width: 70%;
+            margin: 10px 14px;
+            height: 34px;
+            border: none;
+            background: transparent;
+            border-bottom: 1px solid rgb(95, 89, 89);
+            line-height: 20px;
+            transition: 1s;
+        }
+
+        #name:hover {
+            transition: 1s;
+            font-size: 20px;
+            border-bottom: 2px solid rgb(41, 41, 246);
+            width: 90%;
+        }
+
+        #fname {
+            /* padding: px;
+            width: 70%;
+            margin: 18px 0px;
+            height: 34px;
+            border: none;
+            background: transparent;
+            border-bottom: 1px solid rgb(95, 89, 89); */
+            padding: px;
+            width: 70%;
+            margin: 17px 23px;
+            height: 34px;
+            border: none;
+            background: transparent;
+            border-bottom: 1px solid rgb(95, 89, 89);
+            line-height: 20px;
+            transition: 1s;
+        }
+
+        #fname:hover {
+            transition: 1s;
+            font-size: 20px;
+            border-bottom: 2px solid rgb(41, 41, 246);
+            width: 90%;
+        }
+
+        #group {
+            padding: px;
+            width: 70%;
+            margin: 18px 50px;
+            height: 34px;
+            background-color: white;
+            border: none;
+            color: black;
+            transition: 1s;
+        }
+
+        #group:hover {
+            transition: 1s;
+            font-size: 15px;
+            border: none;
+            /* border: 2px solid blue; */
+            /* border-bottom: 2px solid rgb(41, 41, 246); */
+            width: 80%;
+        }
+
+        .grade {
+            width: 527px;
+            height: 140px;
+            /* border: 2px solid red; */
+            margin-left: 370px;
+            margin-top: 25px;
+            background-color: white;
+            border-radius: 10px;
+            padding: 23px;
+            font-size: 20px;
+
+        }
+
+        #email {
+            width: 70%;
+            margin: 10px 40px;
+            height: 34px;
+            border: none;
+            background: transparent;
+            border-bottom: 1px solid rgb(95, 89, 89);
+            line-height: 20px;
+            transition: 1s;
+        }
+
+        #email:hover {
+            transition: 1s;
+            font-size: 15px;
+            border: none;
+            width: 80%;
+            border-bottom: 1px solid blue;
+        }
+
+        .header {
+            width: 527px;
+            height: 190px;
+            /* border: 2px solid red; */
+            margin-left: 370px;
+            margin-top: 25px;
+            background-color: white;
+            border-radius: 8px;
+            padding: 23px;
+            font-size: 20px;
+            border-top: 13px solid gray;
+            display: inline-block;
+        }
+        #submit
+        {
+            /* border-radius: 2px solid red; */
+            height: 35px;
+            width: 102px;
+            border-radius: 5px;
+border: none;
+margin-left: 380px;
+  margin-top: 12px;
+  background-color: rgb(88, 85, 85) ;
+   color: white;
+    font-size: 17px; 
+    text-align: center;
+     font-family: 'docs-Roboto', Helvetica, Arial, sans-serif;
+        }
+        #submit:hover
+        {
+            background-color: gray;
+        }
+        #reset
+        {
+            height: 35px;
+            width: 102px;
+            border-radius: 5px;
+border: none;
+margin-left: 357px;
+  margin-top: 12px;
+  color: rgb(88, 85, 85) ;
+  background-color: rgb(240, 238, 238);
+  font-size: 17px; 
+    text-align: center;
+     /* font-family: 'docs-Roboto', Helvetica, Arial, sans-serif;    */
+     font-family: "Google Sans",Roboto,Arial,sans-serif;
+     font-weight: 500;
+     
+        }
+        #reset:hover
+        {
+background-color: lavender;
+font-family: "Google Sans",Roboto,Arial,sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <span style="font-family: 'docs-Roboto', Helvetica, Arial, sans-serif; font-size: 32px;">Addmisions Form For XI
+            Students </span>
+        <br>
+        <div style="display: inline-block; font-size: 16px; line-height: 50px; font-family: 'docs-Roboto', Helvetica, Arial, sans-serif;">
+            <span>
+                For Year 2022-2024
+            </span>
+        </div>
+        <hr>
+        <div class="">
+            <span style="font-size: 13px; font-family: 'docs-Roboto', Helvetica, Arial, sans-serif;"> <b>
+                saimrashid3344@gmail.com
+            </b> </span>
+            <span style=" font-size: 14px;"><a href="https://accounts.google.com/AccountChooser?continue=https://docs.google.com/forms/d/e/1FAIpQLSeE3YUkm9WfIxSDcp_B9_nc9uPjl4tKX7rSTB-UIoZHWE8ulA/viewform&service=wise" target="_blank" style="text-decoration: none; color: rgb(41, 41, 246); ">
+                Switch Account
+            </a> </span>
+        </div>
+        <div>
+            <span style="font-size: 14px;  font-family: 'docs-Roboto', Helvetica, Arial, sans-serif; ">
+                The name and photo associated with your Google account will be recorded when you upload files and submit this form. Your email is not part of your response
+            </span>
+        </div>
+        <span style="color: red; font-family: 'docs-Roboto', Helvetica, Arial, sans-serif; font-size: 14px;">
+            <sup style="color: red;">*</sup>Required
+        </span>
+    </div>
+
+
+    <div class="name">
+        <form action="">
+            <label for="name" style="margin-top: 10px; display: block; padding: 6px 0px;">Name<sup
+                    style="color: red;">*</sup></label>
+            <input type="text" name="" id="name" placeholder="Your Answer" required>
+        </form>
+    </div>
+    <div class="name">
+        <form action="">
+            <label for="fname" style="margin-top: 20px;">Father Name<sup style="color: red;">*</sup></label>
+            <input type="text" name="" id="fname" placeholder="Your Answer" required>
+        </form>
+    </div>
+    <div class="name">
+        <form action="">
+            <label for="group" style="margin-top: 20px;">Group<sup style="color: red;">*</sup></label>
+            <select name="" id="group" required>
+                <option value="" disabled selected>Choose Group</option>
+                <option value="">Science General(ICS)</option>
+                <option value="">Pre-Medical</option>
+                <option value="">Pre-Engineering</option>
+                <option value="">Humanities</option>
+            </select>
+        </form>
+    </div>
+    <div class="grade">
+        <form action="">
+            <label for="group" style="margin-top: 20px; font-family: Roboto,Arial,sans-serif; font-size: 15px;">Enter
+                Your SSC I or II Grade<sup style="color: red; font-size: 20px;">*</sup><br>
+                <span style="font-size: 14px;">
+                    Note: (For Pre Medical, Pre Engineering & Computer Science only A & B Grades are Allowed) for (Arts
+                    A,B
+                    & C Grades are Allowed)
+                </span>
+
+            </label>
+            <select name="" id="group" required>
+                <option value="" disabled selected>Choose Grade</option>
+                <option value="">A+</option>
+                <option value="">A</option>
+                <option value="">B</option>
+                <option value="">C</option>
+                <option value="">D</option>
+            </select>
+        </form>
+    </div>
+    <div class="name">
+        <form action="">
+            <label for="group" style="margin-top: 20px;">Category<sup style="color: red;">*</sup></label>
+            <select name="" id="group" required>
+                <option value="" selected disabled>Choose </option>
+                <option value="">Open Merits(Civilians)</option>
+                <option value="">Defence Paid</option>
+                <option value="">Serving Armed Forces</option>
+                <option value="">Retired Armed Forces</option>
+                <option value="">Sports</option>
+            </select>
+        </form>
+    </div>
+    <div class="name">
+        <form action="">
+            <span style="font-size: 25px;">
+                Gender<sup style="color: red;">*</sup>
+            </span>
+            <br>
+            <input type="radio" name="gender" id="male" style="  margin-top: 17px;
+            margin-left: 2px;
+            padding: 37px 5px;">
+            <label for="male">Male</label>
+            <br>
+            <input type="radio" name="gender" id="female" style="margin-top: 25px;
+            margin-left: 2px;
+            padding: 37px 5px;">
+            <label for="female">Female</label>
+        </form>
+    </div>
+    <div class="name">
+        <form action="">
+            <span style="font-size: 25px
+           ;">
+                Board<sup style="color: red;">*</sup>
+            </span> <br>
+            <input type="radio" name="board" id="bise" style="  margin-top: 17px;
+            margin-left: 2px;
+            padding: 37px 5px;">
+            <label for="bise">BISE Hyderabad</label>
+            <br>
+            <input type="radio" name="board" id="fbise" style="margin-top: 25px;
+            margin-left: 2px;
+            padding: 37px 5px;">
+            <label for="fbise">FBISE Islamabad</label>
+        </form>
+    </div>
+    <div class="name">
+        <form action="">
+            <label for="name" style="margin-top: 20px;">Active WhatsApp Number<sup style="color: red;">*</sup></label>
+            <input type="number" name="" id="name" placeholder="Your Answer" required>
+        </form>
+    </div>
+    <div class="name">
+        <form action="">
+            <label for="name" style="margin-top: 20px;">CNIC/B-Form<sup style="color: red;">*</sup></label>
+            <input type="number" name="" id="name" placeholder="Your Answer" required>
+        </form>
+    </div>
+    <div class="name">
+        <form action="">
+            <p>
+                <label for="name" style="margin-top: 20px;" id="">Email ID<sup style="color: red;">*</sup></label>
+                <input type="text" name="" id="email" placeholder="Your Answer" required>
+            </p>
+        </form>
+    </div>
+    <div class="name">
+        <form action="">
+            <p>
+                <label for="name" style="margin-top: 20px;" id="">Upload Photo<sup style="color: red;">*</sup>
+                    <br>
+                    <span style="font-size: 17px; margin: 12px;">
+                        Passport Size with Blue or White Background only in College Uniform
+                    </span></label>
+                <input type="file" name="" placeholder="" required style="margin: 20px 100px;">
+            </p>
+        </form>
+    </div>
+<input type="submit" name="" id="submit" value="Submit" >
+
+<input type="reset" name="" id="reset" value=" Clear Form" >
+
+
+</body>
+
+</html> 
